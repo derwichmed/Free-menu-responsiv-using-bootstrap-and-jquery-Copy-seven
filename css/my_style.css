@@ -1,0 +1,125 @@
+body{
+    background-color: #e2e2e2
+}
+header{
+    background-color: #29487d;
+    min-height: 100px;
+    padding-bottom: 10px
+}
+body > header > div:first-child{
+    text-align: right;
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    cursor: pointer
+}
+body > header > div:first-child img{
+    width: 20px;
+    height: 20px
+}
+.mega_menu{
+    width: 700px;
+    background-color: white;
+    border: #c1bdbd 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 50px;
+    display: none;
+    z-index: 8000
+}
+.border_pointu{
+    position: absolute;
+    width: 700px;
+    margin-top: 102.5px;
+    margin-left: 50px;
+    display: none
+}
+.border_pointu img{
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: auto;
+}
+.mega_menu_item strong{
+    color: #29487d;
+    border-bottom: #29487d 3px solid;
+    font-weight: bold;
+    cursor: pointer
+}
+.mega_menu_item ul{
+    padding: 0px;
+    list-style: none;
+    margin-top: 10px;
+    border-left: green 5px solid;
+    padding-left: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.mega_menu_item ul li{
+    color: gray
+}
+.menu_form{
+    padding-top: 15px
+}
+.menu_form > form > div{
+    display: inline-block;
+}
+.menu_form > form > div label,.menu_form > form > div input,.menu_form > form > div a{
+    display: block
+}
+.menu_form > form > div label{
+    color: white
+}
+.menu_form > form  input[type=submit]{
+    border: none;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    cursor: pointer
+}
+.form_subscribe > div:nth-child(2){
+    background-color: skyblue;
+    height: 150px;
+    margin: 20px;
+    border-radius: 5px
+}
+.form_subscribe > div:nth-child(2) p{
+    color: white;
+    padding: 2px;
+    font-size: 10px;
+    font-weight: bold
+}
+.form_subscribe > div:nth-child(2) strong{
+    color: white;
+    font-weight: bold;
+    font-size: 20px
+}
+.form_subscribe_border{
+    width: 500px;
+    position: absolute;
+    right: 0;
+    margin-top: 3px;
+}
+.form_subscribe_border img{
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: auto;
+}
+@media(max-width: 500px){
+    .mega_menu{
+        margin: 0px;
+        width: 100%;
+        margin-top: 90px
+    }
+    #mega_menu_icon{
+        text-align: left
+    }
+    .form_subscribe > div:nth-child(2){
+        margin: 0px;
+        margin-top: 21px
+    }
+}
